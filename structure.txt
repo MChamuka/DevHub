@@ -6,3 +6,18 @@ A simplified combination of:
 - Project management dashboard
 - Team workspace
 A user can create projects, manage tasks, add team members, upload project information, track progress, and view project statistics.
+
+Developer
+Can:
+- create projects
+- join projects
+- create tasks
+- update tasks
+- comment
+- view project statistics
+Project owner
+Can additionally:
+- manage project members
+- delete projects
+- assign tasks
+- manage project settings

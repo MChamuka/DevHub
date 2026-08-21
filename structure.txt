@@ -1,0 +1,8 @@
+A web application called DevHub.
+A simplified combination of:
+- GitHub
+- Trello
+- Developer portfolio
+- Project management dashboard
+- Team workspace
+A user can create projects, manage tasks, add team members, upload project information, track progress, and view project statistics.

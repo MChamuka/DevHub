@@ -23,3 +23,51 @@ body {
 .content-area {
     grid-column: 2 / 3;
 }
+/* =========================================
+   TABLET RESPONSIVENESS (Screens under 1024px)
+   ========================================= */
+@media (max-width: 1024px) {
+    :root {
+        /* We shrink the sidebar variable for medium screens */
+        --sidebar-width: 200px; 
+    }
+
+    /* Wrap the cards so they don't get too squished */
+    .card-container {
+        flex-wrap: wrap; 
+    }
+    
+    .card {
+        min-width: 40%; /* Two cards per row instead of four */
+    }
+}
+
+/* =========================================
+   MOBILE RESPONSIVENESS (Screens under 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    body {
+        /* Change the grid to a single column layout */
+        grid-template-columns: 1fr; 
+    }
+
+    .top-navbar {
+        /* Navbar only spans 1 column now */
+        grid-column: 1 / 2; 
+    }
+
+    .main-sidebar {
+        /* Hide the sidebar completely on mobile */
+        display: none; 
+    }
+
+    .content-area {
+        /* Move content into the single main column */
+        grid-column: 1 / 2; 
+    }
+
+    .card {
+        /* Cards take up the full width on phones */
+        min-width: 100%; 
+    }
+}

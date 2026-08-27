@@ -21,7 +21,11 @@ body {
     grid-column: 1 / 2; /* Locked to the left column */
     padding: 20px;
 }
-
+.main-sidebar.active {
+    display: block; 
+    grid-column: 1 / 2;
+    background-color: var(--card-bg);
+}
 .content-area {
     grid-column: 2 / 3; /* Locked to the right column */
     padding: 20px 40px;

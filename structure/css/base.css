@@ -1,7 +1,15 @@
-/* base.css */
 body {
     margin: 0;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    background-color: var(--bg-light); /* Using the variable! */
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
     color: var(--text-dark);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
 }

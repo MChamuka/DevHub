@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/layout.css">
@@ -8,49 +9,45 @@
         <title>Structure</title>
     </head>
     <body>
-        <nav>
-            <a href="#dashboard-overview">
-                Dashboard Overview
-            </a>
-            <a href="#projects">
-                Projects
-            </a>
-            <a href="#dashboard">
-                Dashboard
-            </a>
-            <a href="#task-details">
-                Task Details
-            </a>
+        <!-- Added top-navbar class -->
+        <nav class="top-navbar">
+            <a href="#dashboard-overview">Dashboard Overview</a>
+            <a href="#projects">Projects</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#task-details">Task Details</a>
         </nav>
-        <aside>
+        
+        <!-- Added main-sidebar class -->
+        <aside class="main-sidebar">
             <nav>
-                <a href="#dashboard">
-                    Dashboard
-                </a>
-                <a href="#projects">
-                    Projects
-                </a>
-                <a href="#messages">
-                    Messages
-                </a>
-                <a href="#calendar">
-                    Calendar
-                </a>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#projects">Projects</a>
+                <a href="#messages">Messages</a>
+                <a href="#calendar">Calendar</a>
             </nav>
         </aside>
-        <div>
-            <div>Project 1</div>
-            <div>Project 2</div>
-            <div>Project 3</div>
-            <div>Project 4</div>
-        </div>
-        <div>
-            <div>Task 1</div>
-            <div>Task 2</div>
-            <div>Task 3</div>
-            <div>Task 4</div>
-        </div>
-        <h1>Structure</h1>
-        <p>This is the structure page.</p>
+        
+        <!-- Grouped the rest of the content into a main area -->
+        <main class="content-area">
+            
+            <!-- Added container and card classes -->
+            <div class="card-container">
+                <div class="card">Project 1</div>
+                <div class="card">Project 2</div>
+                <div class="card">Project 3</div>
+                <div class="card">Project 4</div>
+            </div>
+            
+            <div class="card-container">
+                <div class="card">Task 1</div>
+                <div class="card">Task 2</div>
+                <div class="card">Task 3</div>
+                <div class="card">Task 4</div>
+            </div>
+            
+            <h1>Structure</h1>
+            <p>This is the structure page.</p>
+            
+        </main>
     </body>
 </html>

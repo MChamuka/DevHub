@@ -18,8 +18,7 @@ body {
 }
 
 .main-sidebar {
-    grid-column: 1 / 2; /* Locked to the left column */
-    padding: 20px;
+    display: none; 
 }
 .main-sidebar.active {
     display: block; 

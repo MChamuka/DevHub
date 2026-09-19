@@ -1,4 +1,3 @@
-// src/modules/users.js
 import { generateId } from './utils.js';
 
 export default class User {

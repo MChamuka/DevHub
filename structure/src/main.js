@@ -1,9 +1,7 @@
 import { toggleSidebar } from './modules/ui.js';
 import * as Utils from './modules/utils.js';
 import AppStorage from './modules/storage.js';
-import User from './modules/users.js';
-import Task from './modules/tasks.js';
-import Project from './modules/projects.js';
+import {User,Task,Project} from './modules/index.js';
 
 // 1. Find the elements on the page
 const menuBtn = document.getElementById('menu-btn');

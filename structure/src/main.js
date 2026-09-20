@@ -3,6 +3,7 @@ import * as Utils from './modules/utils.js';
 import AppStorage from './modules/storage.js';
 import {User,Task,Project} from './modules/index.js';
 import appConfig from './config.json' with { type: 'json' };
+import remoteData from './modules/initConfig.js';
 
 // 1. Find the elements on the page
 const menuBtn = document.getElementById('menu-btn');
@@ -57,3 +58,7 @@ if (appConfig.theme === "dark") {
     console.log("Applying dark mode...");
     // You could apply a dark mode CSS class to the body here
 }
+
+// This line will NOT run until the 2-second await in initConfig.js finishes!
+console.log("🚀 The app is now fully starting up...");
+console.log(`API is currently: ${remoteData.apiStatus}`);

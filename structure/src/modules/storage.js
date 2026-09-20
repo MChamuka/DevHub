@@ -1,5 +1,3 @@
-// src/modules/storage.js
-
 const Storage = {
     save: function(key, data) {
         localStorage.setItem(key, JSON.stringify(data));

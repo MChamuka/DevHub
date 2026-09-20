@@ -1,0 +1,6 @@
+{
+    "appName": "Project Manager Pro",
+    "version": "1.0.0",
+    "theme": "dark",
+    "maxTasksPerProject": 50
+}
